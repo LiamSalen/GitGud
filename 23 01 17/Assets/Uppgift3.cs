@@ -7,14 +7,14 @@ public class Uppgift3 : MonoBehaviour {
 
     int Metod (int a, int b)
     {
-        //Debug.Log(valA + valB);
+        
         return a + b;
-
+        //This method prints a + b. a and b have the same value as valA and valB.
     }
 	// Use this for initialization
 	void Start () {
         Debug.Log(Metod(valA, valB));
-       
+       //This prints the final product. It prints the values from valA and valB together.
 	}
 	
 	// Update is called once per frame

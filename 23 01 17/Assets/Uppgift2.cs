@@ -11,14 +11,17 @@ public class Uppgift2 : MonoBehaviour {
         {
             Debug.Log(valA);
         }
+    //This checks if valA is bigger than valB.
     if (valB > valA)
         {
             Debug.Log(valB);
         }
+    //This checks if valB is bigger than valA.
     if (valA == valB)
         {
             Debug.Log("The Same Value");
         }
+    //This checks if valA and valB have the same value.
 	}
 	
 	// Update is called once per frame
