@@ -11,18 +11,15 @@ public class Uppgift4 : MonoBehaviour {
         
 	if(valC < valB || valC < valA)
         {
+            //This checks if valC is smaller than valB and bigger than valA.
             Debug.Log("In The Middle");
         }
-    //This checks if valC is smaller than valB and bigger than valA.
-    else
+    
+        else
         {
+            //This prints if valC not bigger or smaller than valA or valB.
             Debug.Log("Not In the Middle");
         }
-    //This prints if valC not bigger or smaller than valA or valB.
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+    
 	}
 }

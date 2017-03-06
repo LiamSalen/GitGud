@@ -7,25 +7,20 @@ public class Uppgift2 : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	if (valA > valB)
+	    if (valA > valB) //This checks if valA is bigger than valB.
         {
             Debug.Log(valA);
         }
-    //This checks if valA is bigger than valB.
-    if (valB > valA)
+
+        if (valB > valA) //This checks if valB is bigger than valA.
         {
             Debug.Log(valB);
         }
-    //This checks if valB is bigger than valA.
-    if (valA == valB)
+    
+        if (valA == valB) //This checks if valA and valB have the same value.
         {
             Debug.Log("The Same Value");
         }
-    //This checks if valA and valB have the same value.
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    
+	}	
 }

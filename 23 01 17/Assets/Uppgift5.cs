@@ -27,9 +27,4 @@ public class Uppgift5 : MonoBehaviour {
         }
         //Prints if valC is bigger than valE or smaller than valD.
     }
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 }

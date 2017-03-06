@@ -10,16 +10,12 @@ public class Uppgift1 : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        //valC and valD save the values from valA and valB for later.
+        //This makes it so you can change the values from valA to valB and valB to valA.
         valC = valA;
         valD = valB;
         valB = valC;
         valA = valD;
-        //valC and valD save the values from valA and valB for later.
-        //This makes it so you can change the values from valA to valB and valb to valA.
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+        
 	}
 }
